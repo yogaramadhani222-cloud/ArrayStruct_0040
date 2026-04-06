@@ -30,5 +30,11 @@ int main()
     getline(cin, mhs[i].alamat.desa);
     cout << "isikan data usia:";
     cin >> mhs[1].umur;
+
+     
+    cout << "Data Mahasiswa" << endl;
+    cout << "Nama : " << mhs[i].nama << endl;
+    cout << "Alamat :"<< mhs[i].alamat.kota << endl;
+    cout << "Usia: " << mhs[i].umur << endl;
     }
 }
